@@ -1,6 +1,42 @@
 /* Styles Sheet */
 
 body {
-
-    
+    font-family: sans-serif;
+    margin: auto;
+    display: flex;
 }
+
+/* Header Styling */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-links {
+    gap: 16px;
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+a:link, a:hover, a:visited, a:active {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* End Of Header Styling */
