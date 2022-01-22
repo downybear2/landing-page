@@ -5,6 +5,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 /* Header styling */
@@ -42,7 +43,7 @@ a:link, a:hover, a:visited, a:active {
 /* Hero-1 styling */
 
 .hero-1 {
-    gap: 32px;
+    gap: 64px;
     background-color: #1f2937;
     display: flex;
     padding: 100px 150px;
@@ -118,7 +119,7 @@ a:link, a:hover, a:visited, a:active {
     gap: 52px;
     padding: 0px 150px;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     color: #6d6d6d;
 
 }
@@ -137,5 +138,28 @@ a:link, a:hover, a:visited, a:active {
     max-width: 150px;
 }
 
-/* Hero-2 styling end */
+/* Quote section styling */
 
+.quote-hero {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #6d6d6d;
+}
+
+.quote-author {
+    display: flex;
+    padding-top: 10px;
+    font-weight: 800;
+    justify-content: flex-end;
+    color: #1f2937;
+    text-align: center;
+    padding-right: 40px;
+}
