@@ -13,7 +13,7 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    padding: 0px 250px;
+    padding: 0px 150px;
 }
 
 .header-logo {
@@ -38,20 +38,20 @@ a:link, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
-/* End of header styling */
+/* Header styling end */
 
-/* Section-1 styling */
+/* Hero-1 styling */
 
-.section-1 {
-    gap: 16px;
+.hero-1 {
+    gap: 32px;
     background-color: #1f2937;
     display: flex;
-    padding: 100px 250px;
+    padding: 100px 150px;
 }
 
 /* Image */
 
-.sct-1-image {
+.hero-1-image {
     display: flex;
     flex: 1;
     background-color: #aaaaaa;
@@ -62,7 +62,7 @@ a:link, a:hover, a:visited, a:active {
 
 }
 
-/* End of image */
+/* Image end */
 
 /* Left text */
 
@@ -85,12 +85,12 @@ a:link, a:hover, a:visited, a:active {
     color: #e5e7eb;
 }
 
-/* End of left text */
+/* left text end */
 
-/* sct-1 button "Sign up" */
+/* Hero-1 button "Sign up" */
 
-.sct-1-button {
-    border-radius: 5px;
+.hero-1-button {
+    border-radius: 10px;
     border-style: none;
     background-color: #3882f6;
     padding: 8px 32px;
@@ -98,8 +98,54 @@ a:link, a:hover, a:visited, a:active {
     font-size: 18px;
 }
 
-/* End of sct-1 button "Sign up" */
+/* Hero-1 button "Sign up" end */
+
+/* Hero-1 styling end */
+
+/* Hero-2 styling */
+
+/* Hero-2 header */
+
+.hero-2-header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* Hero-2 header end */
 
 
-/* End of section-1 styling */
+.hero-2-body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding: 0px 150px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.hero-2-button {
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    padding: 60px 60px;
+    background-color: rgba(175, 174, 174, 0.37);
+}
+
+.info {
+    max-width: 150px;
+}
+
+.hero-2-text {
+    color: #8d8d8d;
+}
+
+/* Hero-2 styling end */
 
