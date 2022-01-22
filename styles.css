@@ -1,6 +1,7 @@
 /* Styles Sheet */
 
 body {
+    margin: auto;
     font-family: sans-serif;
     margin: auto;
     display: flex;
@@ -123,6 +124,8 @@ a:link, a:hover, a:visited, a:active {
     color: #6d6d6d;
 
 }
+
+/* img place holder */
 
 .hero-2-button {
     border-style: solid;
