@@ -15,7 +15,7 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    padding: 0px 150px;
+    padding: 0px 200px;
 }
 
 .header-logo {
@@ -47,7 +47,7 @@ a:link, a:hover, a:visited, a:active {
     gap: 64px;
     background-color: #1f2937;
     display: flex;
-    padding: 100px 150px;
+    padding: 100px 200px;
     flex-wrap: wrap;
 }
 
@@ -104,7 +104,7 @@ a:link, a:hover, a:visited, a:active {
     display: flex;
     flex: 1;
     justify-content: center;
-    padding: 50px 150px;
+    padding: 50px 200px;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
@@ -118,7 +118,7 @@ a:link, a:hover, a:visited, a:active {
     justify-content: center;
     align-items: center;
     gap: 52px;
-    padding: 0px 150px;
+    padding: 0px 200px;
     flex-wrap: wrap;
     padding-bottom: 100px;
     color: #6d6d6d;
@@ -174,10 +174,11 @@ a:link, a:hover, a:visited, a:active {
     display: flex;
     align-self: center;
     justify-content: center;
-    margin: 70px 200px;
+    margin: 100px 200px;
     background-color: #3882f6;
     border-radius: 8px;
-    flex-wrap: wrap;
+    padding: 60px 150px;
+    gap: 100px;
 }
 
 .cta-header {
@@ -185,20 +186,21 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .cta-body {
-    padding: 20px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 4px;
     color: #f9faf8;
 }
 
 .cta-button {
+    display: flex;
     background-color: #3882f6;
     border-style: solid;
     border-color: white;
-    margin: 50px;
-    padding: 5px 25px;
     border-radius: 8px;
     color: #f9faf8;
+    justify-content: center;
+    align-self: center;
+    padding: 8px 25px;
 }
