@@ -203,4 +203,5 @@ a:link, a:hover, a:visited, a:active {
     justify-content: center;
     align-self: center;
     padding: 8px 25px;
+    flex-shrink: 0;
 }
