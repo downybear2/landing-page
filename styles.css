@@ -37,8 +37,11 @@ body {
 }
 
 a:link, a:visited {
-    color: #e5e7eb;
     text-decoration: none;
+}
+
+a {
+    color: #f9faf8;
 }
 
 /* Hero-1 styling */
@@ -174,7 +177,6 @@ a:link, a:visited {
     justify-content: flex-end;
     color: #1f2937;
     text-align: center;
-    padding-right: 40px;
 }
 
 /* CTA section styling */
@@ -203,6 +205,8 @@ a:link, a:visited {
     color: #f9faf8;
 }
 
+/* CTA Sign up button styling */
+
 .cta-button {
     display: flex;
     background-color: #3882f6;
@@ -219,4 +223,26 @@ a:link, a:visited {
 
 .cta-button:hover {
     background-color: black;
+}
+
+/* Footer styling */
+
+.footer {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 20px 100px;
+    color: #f9faf8;
+}
+
+.github-link {
+    color: greenyellow;
+}
+
+.footer-link {
+    color: aqua;
 }
