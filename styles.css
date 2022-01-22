@@ -13,8 +13,7 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding: 0px 250px;
 }
 
 .header-logo {
@@ -47,19 +46,10 @@ a:link, a:hover, a:visited, a:active {
     gap: 16px;
     background-color: #1f2937;
     display: flex;
-    padding-right: 250px;
-    padding-left: 250px;
-    flex: 1;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 100px 250px;
 }
 
-.left-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 1;
-}
+/* Image */
 
 .sct-1-image {
     display: flex;
@@ -70,6 +60,18 @@ a:link, a:hover, a:visited, a:active {
     justify-content: center;
     color: #f9faf8;
 
+}
+
+/* End of image */
+
+/* Left text */
+
+.left-text {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
 }
 
 .lft-text-hdr {
@@ -83,10 +85,21 @@ a:link, a:hover, a:visited, a:active {
     color: #e5e7eb;
 }
 
+/* End of left text */
+
+/* sct-1 button "Sign up" */
+
+.sct-1-button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* End of sct-1 button "Sign up" */
+
 
 /* End of section-1 styling */
-
-/* Button styling */
-
-/* End of button styling
 
