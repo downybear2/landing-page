@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     margin: auto;
     display: flex;
+    flex-direction: column;
 }
 
 /* Header Styling */
@@ -13,8 +14,8 @@ body {
     display: flex;
     flex: 1;
     align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 250px;
+    padding-left: 250px;
 }
 
 .header-logo {
